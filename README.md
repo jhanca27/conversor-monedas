@@ -5,7 +5,7 @@ Este es un proyecto para convertir el valor de una moneda.
 ## Dependency Management
 
 ![](https://img.shields.io/badge/version-Java_21-blue)
-
+![](https://img.shields.io/badge/Gson-2.11.0.-blue)
 
 ## Folder Structure
 
