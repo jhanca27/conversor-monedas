@@ -4,7 +4,7 @@ Este es un proyecto para convertir el valor de una moneda.
 
 ## Dependency Management
 
-![Static Badge](https://img.shields.io/badge/:badgeContent)
+![Static Badge](https://img.shields.io/badge/any_text-you_like-blue)
 
 
 ## Folder Structure
