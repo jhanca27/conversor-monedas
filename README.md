@@ -4,7 +4,7 @@ Este es un proyecto para convertir el valor de una moneda.
 
 ## Dependency Management
 
-![](https://img.shields.io/badge/java-21)
+![](https://img.shields.io/badge/version-Java_21-blue)
 
 
 ## Folder Structure
