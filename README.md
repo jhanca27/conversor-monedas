@@ -2,6 +2,11 @@
 
 Este es un proyecto para convertir el valor de una moneda.
 
+## Dependency Management
+
+![Static Badge](https://img.shields.io/badge/:badgeContent)
+
+
 ## Folder Structure
 
 The workspace contains two folders by default, where:
@@ -15,6 +20,3 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 se va a consumir una api para conseguir los valores actuales
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
