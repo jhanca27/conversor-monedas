@@ -9,14 +9,51 @@ Este es un proyecto para convertir el valor de una moneda.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+El siguiente area de trabajo contiene las siguientes carpetas principales:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: Esta carpeta contiene los principales recursos:
+- `settings.json`: Este archivo maneja las configuraciones del proyecto y las dependencias.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Mientras tanto, los archivos de salida compilados se generarán en la carpeta bin de forma predeterminada.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estructura del Proyecto
 
-se va a consumir una api para conseguir los valores actuales
+El proyecto se divide en los siguientes paquetes y clases:
+
+### Paquete: `errors`
+- `ErrorResponse.java`: Maneja las respuestas de error que se reciben de la api.
+
+### Paquete: `models`
+- `Conversor.java`: Clase principal que contiene el objeto principal que maneja el conversor.
+- `ConversorRecord.java`: Clase que permite recibir los datos de las respuesta de la api .
+
+### Paquete: `utils`
+- `ConexionAPI.java`: Clase para manejar la conexión con la API.
+- `CrearUrl.java`: Clase para crear URLs necesarias para las peticiones a la API.
+- `Json.java`: Clase para manejar la conversión y manipulación de datos JSON.
+- `LocalDateTimeAdapter.java`: Adaptador para manejar conversiones de fechas y horas al momento de serialización.
+- `Response.java`: Clase para manejar las respuestas de las peticiones.
+- `Principal.java`: Clase principal del proyecto y donde se ejecuta.
+- `ProvadorFecha.java`: Clase para probar y validar pruebas.
+
+## Compilación y Ejecución
+
+Los archivos de salida compilados se generarán en la carpeta `bin` de forma predeterminada.
+
+### Requisitos
+- JDK 11 o superior
+
+
+### Ejecución
+Para Ejecutar el proyecto, ejecute el siguiente comando desde la raíz del proyecto:
+
+```sh
+java -cp bin com.jh.Principal
+````
+
+
+
+## Api:
+se va a consumir una api para conseguir los valores de tasa de cambio entre monedas. 
+https://www.exchangerate-api.com
 
