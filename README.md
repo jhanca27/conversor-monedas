@@ -51,8 +51,6 @@ Para Ejecutar el proyecto, ejecute el siguiente comando desde la raíz del proye
 java -cp bin com.jh.Principal
 ````
 
-
-
 ## Api:
 se va a consumir una api para conseguir los valores de tasa de cambio entre monedas. 
 https://www.exchangerate-api.com

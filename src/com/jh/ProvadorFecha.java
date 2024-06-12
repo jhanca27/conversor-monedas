@@ -2,6 +2,7 @@ package com.jh;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Map;
 
 public class ProvadorFecha {
 
@@ -18,5 +19,9 @@ public class ProvadorFecha {
         System.out.println(String.format("""
             %2$2s , %1$.3f
         """, numero,hola));
+
+        String apiKey = System.getenv("API_KEY_EXCHANGER");
+        System.out.println(apiKey);
+        
     }
 }

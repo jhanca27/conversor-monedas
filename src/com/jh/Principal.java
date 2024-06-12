@@ -19,7 +19,7 @@ public class Principal {
         //lector.close();
         //System.out.println("Ingresa tu api key: ");
         //String apiKey = lector.nextLine();
-        String apiKey = "9d82ea6d4ce9d0968c74dad6";
+        String apiKey = System.getenv("API_KEY_EXCHANGER");
         String monedaBase = "";
         String monedaAConvertir = "";
 
