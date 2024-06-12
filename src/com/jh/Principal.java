@@ -16,10 +16,10 @@ public class Principal {
     public static void main(String[] args) throws IOException, InterruptedException {
         Scanner lector = new Scanner(System.in);
         List<Conversor> listaConversiones = new ArrayList<>();
-        //lector.close();
-        //System.out.println("Ingresa tu api key: ");
-        //String apiKey = lector.nextLine();
-        String apiKey = System.getenv("API_KEY_EXCHANGER");
+        
+        System.out.println("Ingresa tu api key: ");
+        String apiKey = lector.nextLine();
+        //String apiKey = System.getenv("API_KEY_EXCHANGER");
         String monedaBase = "";
         String monedaAConvertir = "";
 
